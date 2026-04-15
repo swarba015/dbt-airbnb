@@ -186,7 +186,7 @@ graph LR
         ST3[src_reviews]
     end
 
-    subgraph Dimensions & Facts
+    subgraph DimensionsAndFacts[Dimensions and Facts]
         D1[dim_listings_cleansed]
         D2[dim_hosts_cleansed]
         F1[fct_reviews]
@@ -209,8 +209,8 @@ graph LR
     SEED --> M2
     D1 --> F1
 
-    style Sources fill:#ff9800,color:#fff
-    style Staging fill:#9e9e9e,color:#fff
-    style Dimensions & Facts fill:#2196f3,color:#fff
-    style Marts fill:#4caf50,color:#fff
+    style Sources fill:orange,color:white
+    style Staging fill:gray,color:white
+    style DimensionsAndFacts fill:dodgerblue,color:white
+    style Marts fill:green,color:white
 ```
