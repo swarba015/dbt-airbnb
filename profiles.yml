@@ -1,0 +1,13 @@
+dbt_airbnb:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: qfhqtmn-ul32665
+      user: NUZHAT015
+      authenticator: externalbrowser
+      role: TRANSFORM
+      warehouse: COMPUTE_WH
+      database: AIRBNB
+      schema: DEV
+      threads: 4
