@@ -1,3 +1,4 @@
+profiles.yml
 # dbt artifacts
 target/
 dbt_packages/
